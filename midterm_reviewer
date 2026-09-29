@@ -1,0 +1,33 @@
+age = int(input("ENTER AGE -->"))
+revenue = float(input(ENTER REVENUE -->"))
+cc = int(input(ENTER CREDIT SCORE -->"))
+years = float(input("ENTER YEARS -->"))
+defaults = bool(input("HAS DEFAULTS -->"))
+name = input("ENTER NAME -->")
+value = float(input("VALUE -->"))
+
+max_loan = 0
+base_fee = 0
+
+if age >= 21 and years >= 2.0 and defaults == FALSE:
+    ("BASELINE PASSED")
+if cc >= 720:
+    print("TOO HIGH")
+max loan = rev * 3
+if rev >= 50000:
+    orint("ABOVE 50K REVENUE")
+base_fee = max_loan * 0.015
+    print("base fee is set to", base_fee)
+elif cc < 620 and cc < 720:
+    pass
+
+else:
+    print ("below revenue of 50k")
+    base_fee = max_loan * 0.025
+    print("base fee is set to", base_fee)
+    
+else:
+    ("CREDIT TOO LOW")
+else:
+    ("BASELINE FAILED")
+    
